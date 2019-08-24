@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71658862311278400F0DBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658852311278400F0DBB8 /* AppDelegate.swift */; };
+		C71658882311278400F0DBB8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C71658872311278400F0DBB8 /* art.scnassets */; };
+		C716588A2311278400F0DBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658892311278400F0DBB8 /* ViewController.swift */; };
+		C716588D2311278400F0DBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C716588B2311278400F0DBB8 /* Main.storyboard */; };
+		C716588F2311278500F0DBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C716588E2311278500F0DBB8 /* Assets.xcassets */; };
+		C71658922311278500F0DBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71658902311278500F0DBB8 /* LaunchScreen.storyboard */; };
+		C716589D2311278500F0DBB8 /* TracksterViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716589C2311278500F0DBB8 /* TracksterViewerTests.swift */; };
+		C71658A82311278500F0DBB8 /* TracksterViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658A72311278500F0DBB8 /* TracksterViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71658992311278500F0DBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C716587A2311278400F0DBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71658812311278400F0DBB8;
+			remoteInfo = TracksterViewer;
+		};
+		C71658A42311278500F0DBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C716587A2311278400F0DBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71658812311278400F0DBB8;
+			remoteInfo = TracksterViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71658822311278400F0DBB8 /* TracksterViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracksterViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71658852311278400F0DBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C71658872311278400F0DBB8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C71658892311278400F0DBB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C716588C2311278400F0DBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C716588E2311278500F0DBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71658912311278500F0DBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C71658932311278500F0DBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71658982311278500F0DBB8 /* TracksterViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracksterViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C716589C2311278500F0DBB8 /* TracksterViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksterViewerTests.swift; sourceTree = "<group>"; };
+		C716589E2311278500F0DBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71658A32311278500F0DBB8 /* TracksterViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracksterViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71658A72311278500F0DBB8 /* TracksterViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksterViewerUITests.swift; sourceTree = "<group>"; };
+		C71658A92311278500F0DBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C716587F2311278400F0DBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71658952311278500F0DBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71658A02311278500F0DBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71658792311278400F0DBB8 = {
+			isa = PBXGroup;
+			children = (
+				C71658842311278400F0DBB8 /* TracksterViewer */,
+				C716589B2311278500F0DBB8 /* TracksterViewerTests */,
+				C71658A62311278500F0DBB8 /* TracksterViewerUITests */,
+				C71658832311278400F0DBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71658832311278400F0DBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71658822311278400F0DBB8 /* TracksterViewer.app */,
+				C71658982311278500F0DBB8 /* TracksterViewerTests.xctest */,
+				C71658A32311278500F0DBB8 /* TracksterViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71658842311278400F0DBB8 /* TracksterViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C71658852311278400F0DBB8 /* AppDelegate.swift */,
+				C71658872311278400F0DBB8 /* art.scnassets */,
+				C71658892311278400F0DBB8 /* ViewController.swift */,
+				C716588B2311278400F0DBB8 /* Main.storyboard */,
+				C716588E2311278500F0DBB8 /* Assets.xcassets */,
+				C71658902311278500F0DBB8 /* LaunchScreen.storyboard */,
+				C71658932311278500F0DBB8 /* Info.plist */,
+			);
+			path = TracksterViewer;
+			sourceTree = "<group>";
+		};
+		C716589B2311278500F0DBB8 /* TracksterViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C716589C2311278500F0DBB8 /* TracksterViewerTests.swift */,
+				C716589E2311278500F0DBB8 /* Info.plist */,
+			);
+			path = TracksterViewerTests;
+			sourceTree = "<group>";
+		};
+		C71658A62311278500F0DBB8 /* TracksterViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C71658A72311278500F0DBB8 /* TracksterViewerUITests.swift */,
+				C71658A92311278500F0DBB8 /* Info.plist */,
+			);
+			path = TracksterViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71658812311278400F0DBB8 /* TracksterViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71658AC2311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewer" */;
+			buildPhases = (
+				C716587E2311278400F0DBB8 /* Sources */,
+				C716587F2311278400F0DBB8 /* Frameworks */,
+				C71658802311278400F0DBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TracksterViewer;
+			productName = TracksterViewer;
+			productReference = C71658822311278400F0DBB8 /* TracksterViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C71658972311278500F0DBB8 /* TracksterViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71658AF2311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewerTests" */;
+			buildPhases = (
+				C71658942311278500F0DBB8 /* Sources */,
+				C71658952311278500F0DBB8 /* Frameworks */,
+				C71658962311278500F0DBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C716589A2311278500F0DBB8 /* PBXTargetDependency */,
+			);
+			name = TracksterViewerTests;
+			productName = TracksterViewerTests;
+			productReference = C71658982311278500F0DBB8 /* TracksterViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C71658A22311278500F0DBB8 /* TracksterViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71658B22311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewerUITests" */;
+			buildPhases = (
+				C716589F2311278500F0DBB8 /* Sources */,
+				C71658A02311278500F0DBB8 /* Frameworks */,
+				C71658A12311278500F0DBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71658A52311278500F0DBB8 /* PBXTargetDependency */,
+			);
+			name = TracksterViewerUITests;
+			productName = TracksterViewerUITests;
+			productReference = C71658A32311278500F0DBB8 /* TracksterViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C716587A2311278400F0DBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ziheng Chen";
+				TargetAttributes = {
+					C71658812311278400F0DBB8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C71658972311278500F0DBB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C71658812311278400F0DBB8;
+					};
+					C71658A22311278500F0DBB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C71658812311278400F0DBB8;
+					};
+				};
+			};
+			buildConfigurationList = C716587D2311278400F0DBB8 /* Build configuration list for PBXProject "TracksterViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71658792311278400F0DBB8;
+			productRefGroup = C71658832311278400F0DBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71658812311278400F0DBB8 /* TracksterViewer */,
+				C71658972311278500F0DBB8 /* TracksterViewerTests */,
+				C71658A22311278500F0DBB8 /* TracksterViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71658802311278400F0DBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71658882311278400F0DBB8 /* art.scnassets in Resources */,
+				C71658922311278500F0DBB8 /* LaunchScreen.storyboard in Resources */,
+				C716588F2311278500F0DBB8 /* Assets.xcassets in Resources */,
+				C716588D2311278400F0DBB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71658962311278500F0DBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71658A12311278500F0DBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C716587E2311278400F0DBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C716588A2311278400F0DBB8 /* ViewController.swift in Sources */,
+				C71658862311278400F0DBB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71658942311278500F0DBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C716589D2311278500F0DBB8 /* TracksterViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C716589F2311278500F0DBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71658A82311278500F0DBB8 /* TracksterViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C716589A2311278500F0DBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71658812311278400F0DBB8 /* TracksterViewer */;
+			targetProxy = C71658992311278500F0DBB8 /* PBXContainerItemProxy */;
+		};
+		C71658A52311278500F0DBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71658812311278400F0DBB8 /* TracksterViewer */;
+			targetProxy = C71658A42311278500F0DBB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C716588B2311278400F0DBB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C716588C2311278400F0DBB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C71658902311278500F0DBB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71658912311278500F0DBB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C71658AA2311278500F0DBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C71658AB2311278500F0DBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71658AD2311278500F0DBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71658AE2311278500F0DBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C71658B02311278500F0DBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracksterViewer.app/TracksterViewer";
+			};
+			name = Debug;
+		};
+		C71658B12311278500F0DBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TracksterViewer.app/TracksterViewer";
+			};
+			name = Release;
+		};
+		C71658B32311278500F0DBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TracksterViewer;
+			};
+			name = Debug;
+		};
+		C71658B42311278500F0DBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TracksterViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zihengchen.TracksterViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TracksterViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C716587D2311278400F0DBB8 /* Build configuration list for PBXProject "TracksterViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71658AA2311278500F0DBB8 /* Debug */,
+				C71658AB2311278500F0DBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71658AC2311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71658AD2311278500F0DBB8 /* Debug */,
+				C71658AE2311278500F0DBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71658AF2311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71658B02311278500F0DBB8 /* Debug */,
+				C71658B12311278500F0DBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71658B22311278500F0DBB8 /* Build configuration list for PBXNativeTarget "TracksterViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71658B32311278500F0DBB8 /* Debug */,
+				C71658B42311278500F0DBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C716587A2311278400F0DBB8 /* Project object */;
+}
