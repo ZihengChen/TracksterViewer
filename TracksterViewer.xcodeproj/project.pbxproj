@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C707D5142311E0B4005DA7E3 /* event5.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50A2311E0B3005DA7E3 /* event5.csv */; };
+		C707D5152311E0B4005DA7E3 /* event4.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50B2311E0B3005DA7E3 /* event4.csv */; };
+		C707D5162311E0B4005DA7E3 /* event0.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50C2311E0B3005DA7E3 /* event0.csv */; };
+		C707D5172311E0B4005DA7E3 /* event6.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50D2311E0B3005DA7E3 /* event6.csv */; };
+		C707D5182311E0B4005DA7E3 /* event7.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50E2311E0B3005DA7E3 /* event7.csv */; };
+		C707D5192311E0B4005DA7E3 /* event2.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D50F2311E0B3005DA7E3 /* event2.csv */; };
+		C707D51A2311E0B4005DA7E3 /* event8.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D5102311E0B3005DA7E3 /* event8.csv */; };
+		C707D51B2311E0B4005DA7E3 /* event9.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D5112311E0B3005DA7E3 /* event9.csv */; };
+		C707D51C2311E0B4005DA7E3 /* event3.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D5122311E0B3005DA7E3 /* event3.csv */; };
+		C707D51D2311E0B4005DA7E3 /* event1.csv in Resources */ = {isa = PBXBuildFile; fileRef = C707D5132311E0B3005DA7E3 /* event1.csv */; };
 		C71658862311278400F0DBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658852311278400F0DBB8 /* AppDelegate.swift */; };
 		C71658882311278400F0DBB8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C71658872311278400F0DBB8 /* art.scnassets */; };
 		C716588A2311278400F0DBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658892311278400F0DBB8 /* ViewController.swift */; };
@@ -15,6 +25,10 @@
 		C71658922311278500F0DBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71658902311278500F0DBB8 /* LaunchScreen.storyboard */; };
 		C716589D2311278500F0DBB8 /* TracksterViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716589C2311278500F0DBB8 /* TracksterViewerTests.swift */; };
 		C71658A82311278500F0DBB8 /* TracksterViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658A72311278500F0DBB8 /* TracksterViewerUITests.swift */; };
+		C71658BD2311417A00F0DBB8 /* SCNHGCalGeom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658BC2311417A00F0DBB8 /* SCNHGCalGeom.swift */; };
+		C71658BF2311652B00F0DBB8 /* SCNGenParticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658BE2311652B00F0DBB8 /* SCNGenParticle.swift */; };
+		C71658C12311740700F0DBB8 /* SCNHGCalCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658C02311740700F0DBB8 /* SCNHGCalCluster.swift */; };
+		C71658C52311B4FD00F0DBB8 /* EventDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71658C42311B4FD00F0DBB8 /* EventDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C707D50A2311E0B3005DA7E3 /* event5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event5.csv; sourceTree = "<group>"; };
+		C707D50B2311E0B3005DA7E3 /* event4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event4.csv; sourceTree = "<group>"; };
+		C707D50C2311E0B3005DA7E3 /* event0.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event0.csv; sourceTree = "<group>"; };
+		C707D50D2311E0B3005DA7E3 /* event6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event6.csv; sourceTree = "<group>"; };
+		C707D50E2311E0B3005DA7E3 /* event7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event7.csv; sourceTree = "<group>"; };
+		C707D50F2311E0B3005DA7E3 /* event2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event2.csv; sourceTree = "<group>"; };
+		C707D5102311E0B3005DA7E3 /* event8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event8.csv; sourceTree = "<group>"; };
+		C707D5112311E0B3005DA7E3 /* event9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event9.csv; sourceTree = "<group>"; };
+		C707D5122311E0B3005DA7E3 /* event3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event3.csv; sourceTree = "<group>"; };
+		C707D5132311E0B3005DA7E3 /* event1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = event1.csv; sourceTree = "<group>"; };
 		C71658822311278400F0DBB8 /* TracksterViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TracksterViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71658852311278400F0DBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C71658872311278400F0DBB8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +73,10 @@
 		C71658A32311278500F0DBB8 /* TracksterViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TracksterViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71658A72311278500F0DBB8 /* TracksterViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksterViewerUITests.swift; sourceTree = "<group>"; };
 		C71658A92311278500F0DBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71658BC2311417A00F0DBB8 /* SCNHGCalGeom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNHGCalGeom.swift; sourceTree = "<group>"; };
+		C71658BE2311652B00F0DBB8 /* SCNGenParticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNGenParticle.swift; sourceTree = "<group>"; };
+		C71658C02311740700F0DBB8 /* SCNHGCalCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNHGCalCluster.swift; sourceTree = "<group>"; };
+		C71658C42311B4FD00F0DBB8 /* EventDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C707D5092311E083005DA7E3 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C707D50C2311E0B3005DA7E3 /* event0.csv */,
+				C707D5132311E0B3005DA7E3 /* event1.csv */,
+				C707D50F2311E0B3005DA7E3 /* event2.csv */,
+				C707D5122311E0B3005DA7E3 /* event3.csv */,
+				C707D50B2311E0B3005DA7E3 /* event4.csv */,
+				C707D50A2311E0B3005DA7E3 /* event5.csv */,
+				C707D50D2311E0B3005DA7E3 /* event6.csv */,
+				C707D50E2311E0B3005DA7E3 /* event7.csv */,
+				C707D5102311E0B3005DA7E3 /* event8.csv */,
+				C707D5112311E0B3005DA7E3 /* event9.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		C71658792311278400F0DBB8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +144,12 @@
 		C71658842311278400F0DBB8 /* TracksterViewer */ = {
 			isa = PBXGroup;
 			children = (
-				C71658852311278400F0DBB8 /* AppDelegate.swift */,
+				C707D5092311E083005DA7E3 /* data */,
 				C71658872311278400F0DBB8 /* art.scnassets */,
-				C71658892311278400F0DBB8 /* ViewController.swift */,
-				C716588B2311278400F0DBB8 /* Main.storyboard */,
-				C716588E2311278500F0DBB8 /* Assets.xcassets */,
-				C71658902311278500F0DBB8 /* LaunchScreen.storyboard */,
-				C71658932311278500F0DBB8 /* Info.plist */,
+				C71658B823113EA500F0DBB8 /* support */,
+				C71658B723113E7D00F0DBB8 /* view */,
+				C71658B923113EDD00F0DBB8 /* controller */,
+				C71658BA23113F1800F0DBB8 /* model */,
 			);
 			path = TracksterViewer;
 			sourceTree = "<group>";
@@ -126,6 +170,44 @@
 				C71658A92311278500F0DBB8 /* Info.plist */,
 			);
 			path = TracksterViewerUITests;
+			sourceTree = "<group>";
+		};
+		C71658B723113E7D00F0DBB8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C716588B2311278400F0DBB8 /* Main.storyboard */,
+				C71658902311278500F0DBB8 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C71658B823113EA500F0DBB8 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				C716588E2311278500F0DBB8 /* Assets.xcassets */,
+				C71658932311278500F0DBB8 /* Info.plist */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		C71658B923113EDD00F0DBB8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C71658852311278400F0DBB8 /* AppDelegate.swift */,
+				C71658892311278400F0DBB8 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C71658BA23113F1800F0DBB8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C71658BC2311417A00F0DBB8 /* SCNHGCalGeom.swift */,
+				C71658BE2311652B00F0DBB8 /* SCNGenParticle.swift */,
+				C71658C02311740700F0DBB8 /* SCNHGCalCluster.swift */,
+				C71658C42311B4FD00F0DBB8 /* EventDataLoader.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +314,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C707D51C2311E0B4005DA7E3 /* event3.csv in Resources */,
+				C707D5192311E0B4005DA7E3 /* event2.csv in Resources */,
+				C707D5152311E0B4005DA7E3 /* event4.csv in Resources */,
+				C707D51D2311E0B4005DA7E3 /* event1.csv in Resources */,
+				C707D5142311E0B4005DA7E3 /* event5.csv in Resources */,
 				C71658882311278400F0DBB8 /* art.scnassets in Resources */,
 				C71658922311278500F0DBB8 /* LaunchScreen.storyboard in Resources */,
+				C707D5172311E0B4005DA7E3 /* event6.csv in Resources */,
+				C707D51A2311E0B4005DA7E3 /* event8.csv in Resources */,
+				C707D51B2311E0B4005DA7E3 /* event9.csv in Resources */,
+				C707D5162311E0B4005DA7E3 /* event0.csv in Resources */,
+				C707D5182311E0B4005DA7E3 /* event7.csv in Resources */,
 				C716588F2311278500F0DBB8 /* Assets.xcassets in Resources */,
 				C716588D2311278400F0DBB8 /* Main.storyboard in Resources */,
 			);
@@ -261,7 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C716588A2311278400F0DBB8 /* ViewController.swift in Sources */,
+				C71658C52311B4FD00F0DBB8 /* EventDataLoader.swift in Sources */,
+				C71658BF2311652B00F0DBB8 /* SCNGenParticle.swift in Sources */,
 				C71658862311278400F0DBB8 /* AppDelegate.swift in Sources */,
+				C71658BD2311417A00F0DBB8 /* SCNHGCalGeom.swift in Sources */,
+				C71658C12311740700F0DBB8 /* SCNHGCalCluster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +533,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TracksterViewer/Info.plist;
+				DEVELOPMENT_TEAM = H66CAA5W2R;
+				INFOPLIST_FILE = TracksterViewer/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +551,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TracksterViewer/Info.plist;
+				DEVELOPMENT_TEAM = H66CAA5W2R;
+				INFOPLIST_FILE = TracksterViewer/support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
