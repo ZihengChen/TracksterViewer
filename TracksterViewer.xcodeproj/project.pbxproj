@@ -107,6 +107,7 @@
 		C707D5092311E083005DA7E3 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				C71658C42311B4FD00F0DBB8 /* EventDataLoader.swift */,
 				C707D50C2311E0B3005DA7E3 /* event0.csv */,
 				C707D5132311E0B3005DA7E3 /* event1.csv */,
 				C707D50F2311E0B3005DA7E3 /* event2.csv */,
@@ -205,7 +206,6 @@
 				C71658BC2311417A00F0DBB8 /* SCNHGCalGeom.swift */,
 				C71658BE2311652B00F0DBB8 /* SCNGenParticle.swift */,
 				C71658C02311740700F0DBB8 /* SCNHGCalCluster.swift */,
-				C71658C42311B4FD00F0DBB8 /* EventDataLoader.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
