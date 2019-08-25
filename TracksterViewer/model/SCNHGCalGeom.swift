@@ -14,7 +14,7 @@ func getHGCalGeometryNode() -> SCNNode {
     
     let hgcalMaterial = SCNMaterial()
     hgcalMaterial.diffuse.contents = UIColor.black
-    hgcalMaterial.lightingModel = .phong
+//    hgcalMaterial.lightingModel = .phong
     
     
     let nodeHGCalGeometry = SCNNode()

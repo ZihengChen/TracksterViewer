@@ -10,12 +10,9 @@ import Foundation
 import SceneKit
 import ARKit
 
-func getHGCalCluster(px : Float, py : Float, pz : Float, energy : Float, label :  Int)->SCNNode{
+func getHGCalCluster(px : Float, py : Float, pz : Float, size : Float, label :  Int)->SCNNode{
 
-    var size = sqrt(energy)*5
-    if label == 2 {
-        size = sqrt(energy)*15
-    }
+    
     let cluster = SCNPlane(width: CGFloat(size), height: CGFloat(size))
     // Create Material
     let material = SCNMaterial()

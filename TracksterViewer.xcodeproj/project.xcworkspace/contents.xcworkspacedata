@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TracksterViewer.xcodeproj">
+      location = "group:/Users/zihengchen/Documents/iOSApp/TracksterViewer/TracksterViewer/data">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

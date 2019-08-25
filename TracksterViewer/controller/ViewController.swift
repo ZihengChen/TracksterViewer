@@ -14,7 +14,7 @@ import Photos
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     let nodeRoot = SCNNode()
-    let eventList = [1,2]
+    let eventList = [1,2,3]
     
 
     @IBOutlet var sceneView: ARSCNView!
@@ -35,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let nodeHGCal = SCNNode()
         nodeHGCal.addChildNode(getHGCalGeometryNode())
         for eventid in eventList {
-            let (dataGenPart, dataCluster) = readDataFromCSV(fileName: "data/event" + String(eventid))!
+            let (dataGenPart, dataCluster) = readDataFromCSV(fileName: "data/event" + String(eventid) )!//
             for genpart in dataGenPart {
                 let x = Float(genpart[0])!
                 let y = Float(genpart[1])!
@@ -49,13 +49,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 let z = Float(cluster[2])!
                 let e = Float(cluster[3])!
                 let l = Int(cluster[4])!
-                let nodeGenParticle = getHGCalCluster(px: x, py: y, pz: z, energy: e, label: l)
-                nodeHGCal.addChildNode(nodeGenParticle)
+                
+                var s = sqrt(e)*5
+                if l == 2 { s *= 4 }
+                if s > 1 {
+                    let nodeGenParticle = getHGCalCluster(px: x, py: y, pz: z, size: s, label: l)
+                    nodeHGCal.addChildNode(nodeGenParticle)
+                }
+                
             }
         }
-
-        nodeHGCal.scale = SCNVector3(0.001,0.001,-0.001)
-        nodeHGCal.position = SCNVector3(0,0,0.550)
+        
+        let scale = 0.001
+        nodeHGCal.scale = SCNVector3(scale,scale,-scale)
+        nodeHGCal.position = SCNVector3(0,0,550*scale)
+        
         
         nodeRoot.addChildNode(nodeHGCal)
 

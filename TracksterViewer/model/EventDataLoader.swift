@@ -11,8 +11,10 @@ import Foundation
 func readDataFromCSV(fileName:String) -> ([[String]],[[String]])? {
     guard let filepath = Bundle.main.path(forResource: fileName, ofType: "csv")
         else {
+            print("fail to open csv")
             return nil
     }
+    print(filepath)
     do {
         let contents = try String(contentsOfFile: filepath, encoding: .utf8)
         
